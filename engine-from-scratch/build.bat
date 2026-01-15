@@ -4,6 +4,6 @@ set config=src\engine\config\config.c
 set input=src\engine\input\input.c
 set time=src\engine\time\time.c
 set files=src\glad.c src\main.c src\engine\global.c %render% %io% %config% %input% %time%
-set libs=C:\Work\first-game\lin\SDL2main.lib C:\Work\first-game\lib\SDL2.lib
+set libs=C:\Work\first-game\lib\SDL2main.lib C:\Work\first-game\lib\SDL2.lib
 
 CL /Zi /I C:\Work\first-game\include %files% /link %libs% /OUT:mygame.exe
